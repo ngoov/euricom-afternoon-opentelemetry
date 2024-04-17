@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpentelemetryAspire.AppHost", "OpentelemetryAspire\OpentelemetryAspire.AppHost\OpentelemetryAspire.AppHost.csproj", "{F44C1B68-D9CD-4ADE-8172-1FF5D8527762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpentelemetryAspire.ServiceDefaults", "OpentelemetryAspire\OpentelemetryAspire.ServiceDefaults\OpentelemetryAspire.ServiceDefaults.csproj", "{2D9484A7-6121-4CCD-8559-C5BA19707DED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpentelemetryAspire.ApiService", "OpentelemetryAspire\OpentelemetryAspire.ApiService\OpentelemetryAspire.ApiService.csproj", "{9FF5498B-D56F-4A53-A6F2-98FE35533F09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpentelemetryAspire.Web", "OpentelemetryAspire\OpentelemetryAspire.Web\OpentelemetryAspire.Web.csproj", "{030A1E7E-A382-46BE-9E1C-8CCEC89AE2A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F44C1B68-D9CD-4ADE-8172-1FF5D8527762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44C1B68-D9CD-4ADE-8172-1FF5D8527762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44C1B68-D9CD-4ADE-8172-1FF5D8527762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44C1B68-D9CD-4ADE-8172-1FF5D8527762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D9484A7-6121-4CCD-8559-C5BA19707DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9484A7-6121-4CCD-8559-C5BA19707DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9484A7-6121-4CCD-8559-C5BA19707DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9484A7-6121-4CCD-8559-C5BA19707DED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FF5498B-D56F-4A53-A6F2-98FE35533F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF5498B-D56F-4A53-A6F2-98FE35533F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF5498B-D56F-4A53-A6F2-98FE35533F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF5498B-D56F-4A53-A6F2-98FE35533F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030A1E7E-A382-46BE-9E1C-8CCEC89AE2A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030A1E7E-A382-46BE-9E1C-8CCEC89AE2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030A1E7E-A382-46BE-9E1C-8CCEC89AE2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030A1E7E-A382-46BE-9E1C-8CCEC89AE2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
