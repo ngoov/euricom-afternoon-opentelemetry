@@ -1,4 +1,4 @@
-namespace OpentelemetryAspire.Web;
+namespace OpenTelemetryAspire.Web;
 
 public class WeatherApiClient(HttpClient httpClient)
 {

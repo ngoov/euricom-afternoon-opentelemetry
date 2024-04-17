@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\OpentelemetryAspire.ServiceDefaults\OpentelemetryAspire.ServiceDefaults.csproj"/>
+        <ProjectReference Include="..\OpenTelemetryAspire.ServiceDefaults\OpenTelemetryAspire.ServiceDefaults.csproj" />
     </ItemGroup>
 
 </Project>

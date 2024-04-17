@@ -1,5 +1,5 @@
-using OpentelemetryAspire.Web;
-using OpentelemetryAspire.Web.Components;
+using OpenTelemetryAspire.Web;
+using OpenTelemetryAspire.Web.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 

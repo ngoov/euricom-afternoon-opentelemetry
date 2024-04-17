@@ -10,12 +10,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\OpentelemetryAspire.ApiService\OpentelemetryAspire.ApiService.csproj"/>
-        <ProjectReference Include="..\OpentelemetryAspire.Web\OpentelemetryAspire.Web.csproj"/>
+        <ProjectReference Include="..\OpenTelemetryAspire.ApiService\OpenTelemetryAspire.ApiService.csproj" />
+        <ProjectReference Include="..\OpenTelemetryAspire.Web\OpenTelemetryAspire.Web.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Aspire.Hosting.AppHost" Version="8.1.0-preview.1.24216.9"/>
+        <PackageReference Include="Aspire.Hosting.AppHost" Version="8.0.0-preview.5.24201.12" />
     </ItemGroup>
 
 </Project>

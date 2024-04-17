@@ -4,10 +4,11 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <RootNamespace>OpenTelemetryAspire.ApiService</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\OpentelemetryAspire.ServiceDefaults\OpentelemetryAspire.ServiceDefaults.csproj"/>
+        <ProjectReference Include="..\OpenTelemetryAspire.ServiceDefaults\OpenTelemetryAspire.ServiceDefaults.csproj" />
     </ItemGroup>
 
 </Project>
