@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTelemetryAspire.AppHost", "OpenTelemetryAspire\OpenTelemetryAspire.AppHost\OpenTelemetryAspire.AppHost.csproj", "{F44C1B68-D9CD-4ADE-8172-1FF5D8527762}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTelemetryAspire.AppHost", "OpentelemetryAspire\OpenTelemetryAspire.AppHost\OpenTelemetryAspire.AppHost.csproj", "{F44C1B68-D9CD-4ADE-8172-1FF5D8527762}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTelemetryAspire.ServiceDefaults", "OpenTelemetryAspire\OpenTelemetryAspire.ServiceDefaults\OpenTelemetryAspire.ServiceDefaults.csproj", "{2D9484A7-6121-4CCD-8559-C5BA19707DED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTelemetryAspire.ServiceDefaults", "OpentelemetryAspire\OpenTelemetryAspire.ServiceDefaults\OpenTelemetryAspire.ServiceDefaults.csproj", "{2D9484A7-6121-4CCD-8559-C5BA19707DED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTelemetryAspire.ApiService", "OpenTelemetryAspire\OpenTelemetryAspire.ApiService\OpenTelemetryAspire.ApiService.csproj", "{9FF5498B-D56F-4A53-A6F2-98FE35533F09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTelemetryAspire.ApiService", "OpentelemetryAspire\OpenTelemetryAspire.ApiService\OpenTelemetryAspire.ApiService.csproj", "{9FF5498B-D56F-4A53-A6F2-98FE35533F09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTelemetryAspire.Web", "OpenTelemetryAspire\OpenTelemetryAspire.Web\OpenTelemetryAspire.Web.csproj", "{030A1E7E-A382-46BE-9E1C-8CCEC89AE2A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTelemetryAspire.Web", "OpentelemetryAspire\OpenTelemetryAspire.Web\OpenTelemetryAspire.Web.csproj", "{030A1E7E-A382-46BE-9E1C-8CCEC89AE2A6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aspire", "Aspire", "{23D00162-3819-4282-8ED1-1EC1517756DE}"
 EndProject
@@ -14,6 +14,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Getting Started", "Getting Started", "{7B8222E4-BCFB-4AC9-938D-4397D9D683C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{D7612BA0-9268-4EFB-BCD9-A2DF1C7B4D55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,11 +41,16 @@ Global
 		{030A1E7E-A382-46BE-9E1C-8CCEC89AE2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{030A1E7E-A382-46BE-9E1C-8CCEC89AE2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{030A1E7E-A382-46BE-9E1C-8CCEC89AE2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7612BA0-9268-4EFB-BCD9-A2DF1C7B4D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7612BA0-9268-4EFB-BCD9-A2DF1C7B4D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7612BA0-9268-4EFB-BCD9-A2DF1C7B4D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7612BA0-9268-4EFB-BCD9-A2DF1C7B4D55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9FF5498B-D56F-4A53-A6F2-98FE35533F09} = {23D00162-3819-4282-8ED1-1EC1517756DE}
 		{F44C1B68-D9CD-4ADE-8172-1FF5D8527762} = {23D00162-3819-4282-8ED1-1EC1517756DE}
 		{2D9484A7-6121-4CCD-8559-C5BA19707DED} = {23D00162-3819-4282-8ED1-1EC1517756DE}
 		{030A1E7E-A382-46BE-9E1C-8CCEC89AE2A6} = {23D00162-3819-4282-8ED1-1EC1517756DE}
+		{D7612BA0-9268-4EFB-BCD9-A2DF1C7B4D55} = {7B8222E4-BCFB-4AC9-938D-4397D9D683C3}
 	EndGlobalSection
 EndGlobal
