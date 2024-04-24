@@ -1,0 +1,64 @@
+services:
+
+  collector:
+    image: otel/opentelemetry-collector
+    restart: unless-stopped
+    command: ["--config=/etc/otel-collector-config.yml"]
+    volumes:
+      - ./containers/otel-collector-config.yml:/etc/otel-collector-config.yml:cached
+    ports:
+      - 4317:4317 # App -> Collector
+
+  seq:
+    image: datalust/seq
+    restart: unless-stopped
+    environment:
+      - ACCEPT_EULA=Y
+    volumes:
+      - seq-data:/data
+    ports:
+      - 8080:80
+
+  jaeger:
+    image: jaegertracing/all-in-one
+    restart: unless-stopped
+    ports:
+      - 16686:16686
+
+  zipkin:
+    image: openzipkin/zipkin
+    restart: unless-stopped
+    ports:
+      - 9411:9411
+
+  prometheus:
+    image: prom/prometheus
+    restart: unless-stopped
+    volumes:
+      - prometheus-data:/prometheus
+      - ./containers/prometheus.yml:/etc/prometheus/prometheus.yml:cached
+
+  grafana:
+    image: grafana/grafana-enterprise
+    restart: unless-stopped
+    environment:
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - ./containers/grafana-datasources.yml:/etc/grafana/provisioning:cached
+    ports:
+      - 3000:3000
+
+  aspire:
+    image: mcr.microsoft.com/dotnet/nightly/aspire-dashboard
+    restart: unless-stopped
+    ports:
+      - 18888:18888
+
+# Traces are ephemeral.
+# Logs and metrics are persisted.
+volumes:
+  seq-data:
+  prometheus-data:
+  grafana-data:

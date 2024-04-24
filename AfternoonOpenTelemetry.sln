@@ -14,11 +14,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		readme.md = readme.md
+		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Getting Started", "Getting Started", "{7B8222E4-BCFB-4AC9-938D-4397D9D683C3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{D7612BA0-9268-4EFB-BCD9-A2DF1C7B4D55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "containers", "containers", "{B360AFA4-5283-4358-AE3B-D8C2CBA47C47}"
+	ProjectSection(SolutionItems) = preProject
+		containers\prometheus.yml = containers\prometheus.yml
+		containers\grafana-datasouces.yml = containers\grafana-datasouces.yml
+		containers\otel-collector-config.yml = containers\otel-collector-config.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

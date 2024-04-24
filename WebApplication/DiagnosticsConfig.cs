@@ -10,5 +10,5 @@ public static class DiagnosticsConfig
     
     // Add instruments on the meter
     public static Counter<int> RequestsCounter = Meter.CreateCounter<int>("requests");
-    public static Histogram<int> RequestsHistogram = Meter.CreateHistogram<int>("requests");
+    public static Histogram<long> RequestsHistogram = Meter.CreateHistogram<long>("request-time");
 }
